@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\adapter">
+      <UniqueIdentifier>{ce048aae-b7fb-4444-8c81-fcf0ecab9c94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\bridge">
+      <UniqueIdentifier>{f4ec2674-dee0-416d-bfce-f69450ab5e72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\composite">
+      <UniqueIdentifier>{23c83659-2e3c-45e2-a67e-3727bacb9a5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\decorator">
+      <UniqueIdentifier>{a2472df4-8157-49b8-afca-f30a7a45f301}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\facade">
+      <UniqueIdentifier>{cebedb1f-a812-42be-becd-0e071bd90e4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\flyweight">
+      <UniqueIdentifier>{01fcc357-75a6-440e-8a6b-3c0e6b3f8fa9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\proxy">
+      <UniqueIdentifier>{eae45dd2-1920-4e4e-9525-7401a8bbe58d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="lab2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="adapter.h">
+      <Filter>Header Files\adapter</Filter>
+    </ClInclude>
+    <ClInclude Include="bridge.h">
+      <Filter>Header Files\bridge</Filter>
+    </ClInclude>
+    <ClInclude Include="composite.h">
+      <Filter>Header Files\composite</Filter>
+    </ClInclude>
+    <ClInclude Include="decorator.h">
+      <Filter>Header Files\decorator</Filter>
+    </ClInclude>
+    <ClInclude Include="facade.h">
+      <Filter>Header Files\facade</Filter>
+    </ClInclude>
+    <ClInclude Include="flyweight.h">
+      <Filter>Header Files\flyweight</Filter>
+    </ClInclude>
+    <ClInclude Include="proxy.h">
+      <Filter>Header Files\proxy</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
